@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section>
+        <nav class="bg-gray-700 h-20 w-full fixed">
+
+            <input type="checkbox" id="check" class="hidden">
+            <label for="check">
+                <div class="space-y-1 lg:hidden float-right text-white  leading-[80px] mt-[30px] mr-10">
+                    <div class="rounded bg-white w-[25px] h-[3px]"></div>
+                    <div class="rounded bg-white w-[25px] h-[3px]"></div>
+                    <div class="rounded bg-white w-[25px] h-[3px]"></div>
+                </div>
+            </label>
+
+            <label class="text-white leading-[80px] md:leading-[80px] pl-12 md:pl-24 md:text-4xl text-3xl">Navbar</label>
+            <ul class="fixed float-right mr-10 lg:flex leading-[80px] space-x-4 rounded text-white uppercase lg:space-x-4 text-gray-500 lg:relative
+             h-[100vh] lg:h-0 w-[100%] lg:w-fit lg:top-0 left-[-100%] lg:left-0 opacity-[0.8] transition-all duration-300  lg:transition-none text-center bg-gray-500">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="bg-cover h-[100vh]" style="background-image: url(../Assets/Images/img2.jpg);"></section>
+</body>
+</html>
